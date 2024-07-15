@@ -28,4 +28,4 @@ deps = {
 
 deps_first = [deps['osmesa'], deps['libpng'], deps['zlib'], deps['glad']]
 
-executable('start', 'start.cpp', include_directories: inc, dependencies: deps_first)
+executable('hello', 'hello.cpp', include_directories: inc, dependencies: deps_first)
